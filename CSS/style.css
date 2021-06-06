@@ -1,0 +1,254 @@
+@media all and (max-width: 480px)
+{
+   
+    
+  #block-itunes {
+      display: none;
+
+  }
+  #mapid
+  {
+    display: none;
+
+  }
+
+  .linkMenu
+  {
+      font-size: 14px;
+  }
+
+  #sideMenu2,#sideMenu1
+  {
+  
+      display: none;
+  }
+
+
+ 
+}
+
+
+
+
+
+
+
+
+body
+{
+
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 0, 170);
+}
+
+.shadow
+{
+
+    position: relative;
+    margin: 10px auto 0;
+    width: 400px;
+    height: 250px;
+    background: linear-gradient(0deg,rgb(43, 42, 42),#000000);
+    color: rgb(255, 0, 170);
+    text-align: center;
+
+}
+.shadow:before,
+.shadow:after{
+    content: '';
+    position: absolute;
+    top: -2px;
+    left:  -2px;
+    background: linear-gradient(45deg,#fb0094,#0000ff,#00ff00,#ffff00,#ff0000,#fb0094,#0000ff,#00ff00,#ffff00,#ff0000);
+    background-size: 400%;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    z-index: -1;
+    animation: animate 20s linear infinite;
+
+}
+
+.shadow:after{
+    filter: blur(20px);
+
+
+   
+
+}
+@keyframes animate
+{
+    0%{background-position: 0 0;}
+    50%{background-position: 300% 0;}
+    100%{background-position: 0 0;}
+
+}
+.osx
+{
+    margin-top: 50px;
+    width: 100%;
+
+
+}
+.itemNavo
+{
+    color: white;
+}
+.con 
+{
+    color: aliceblue;
+    font-family: 'Orbitron', sans-serif;
+    
+}
+h1
+{
+    color: rgb(255, 0, 191);
+    font-family: 'Orbitron', sans-serif;
+
+}
+.meu1
+{
+margin-left: 20%;
+
+}
+.seconMenu 
+{
+    
+    background: linear-gradient(0deg,#000,#262626);
+   
+
+
+}
+.seconMenulienM
+{
+    background: linear-gradient(0deg,rgb(248, 9, 228),#690169);
+
+    color: white;
+}
+
+
+.lm a
+{
+    font-size: 1em;
+}
+
+                                      /* slider*/
+                                      #block-itunes { position: relative; width: 771px; height: 219px; background: #fff; margin: 0 auto;
+                                    z-index:1}
+
+                                      #block-itunes img { display: block; border: 0 none; }
+                                      
+                                      #bi-images { position: absolute; right: 0; top: 0; width: 220px; height: 219px; overflow: hidden; }
+                                      #bi-min { position: absolute; left: 0; /*top: 0;*/ bottom: 0; width: 220px; }
+                                      #bi-min a { position: relative; display: block; width: 220px; height: 73px; }
+                                      #bi-min a .min { width: 220px; height: 73px; }
+                                      #bi-min a .max { display: none; width: 550px; height: 219px; }
+                                      
+                                      #bi-max { position: relative; width: 550px; height: 219px; }
+                                      #bi-max a { position: absolute; left: 0; top: 0; width: 550px; height: 219px; }
+                                      #bi-max a .min { display: none; }
+                                      #bi-max a .max { width: 550px; height: 219px; }
+                                      
+                                      #bi-button {  z-index:1; position: absolute; right: 89px; bottom: 5px; width: 42px; height: 42px; background: url(itunes-button.png) 0% 0% no-repeat; border: 0 none; cursor: pointer; }
+                                      #bi-button.btn-down { z-index:1; background-position: 0% 100%; }
+                                      
+                                      
+                                      /* un peu de CSS3 */
+                                      #block-itunes {
+                                          -webkit-border-bottom-right-radius: 10px;
+                                          -webkit-border-bottom-left-radius: 10px;
+                                          -moz-border-radius-bottomright: 10px;
+                                          -moz-border-radius-bottomleft: 10px;
+                                          border-bottom-right-radius: 10px;
+                                          border-bottom-left-radius: 10px;
+                                          overflow: hidden;
+                                          
+                                          -webkit-box-shadow: 0px 2px 5px #888;
+                                          -moz-box-shadow: 0px 2px 5px #888;
+                                          box-shadow: 0px 2px 5px #888;
+                                      }
+
+
+
+
+
+.contenu1
+{
+
+    position:relative;
+    margin-top: -20px;
+    z-index: -1;
+   
+
+}
+.tel
+{
+    font-size: 18px;
+    font-weight:bolder ;
+}
+
+.cate
+{
+
+ color:rgb(185, 6, 6);
+
+}
+#fluo
+{
+
+    position: relative;
+    margin: 10px auto 0;
+   
+    background: linear-gradient(0deg,#000,#262626);
+    color: aliceblue;
+    text-align: center;
+   
+
+}
+
+
+#fluo:before,
+#fluo:after
+{
+    content: '';
+    position: absolute;
+    top: -2px;
+    left:  -2px;
+    background: linear-gradient(45deg,#fb0094,#0000ff,#00ff00,#ffff00,#ff0000,#fb0094,#0000ff,#00ff00,#ffff00,#ff0000);
+    background-size: 400%;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    z-index: -1;
+    animation: animate 20s linear infinite;
+
+}
+
+#fluo:after{
+    filter: blur(20px);
+
+
+}
+
+
+.user
+{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	overflow: hidden;
+	position: absolute;
+	top: calc(-100px/2);
+    left: calc(50% - 50px);
+    
+}
+h2
+{
+	margin: 0;
+	padding: 0 0 20px;
+	color: #13d113;
+	text-align: center;
+}
+
+
+
+
