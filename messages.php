@@ -30,7 +30,7 @@ require_once __DIR__ . '/config/bootstrap.php';
                           $chat .= '<div class="single-message">
                             <strong>'.$message->user .'</strong>' . $message->message.'
                           
-                        <span style="float:right;"> '.date( 'h:m:a',strtotime ($message->date)).'</span>
+                        <span style="float:right;"> '.date('d/m/Y',strtotime($message->date)).'</span>
                                    </div>';
 
                                        

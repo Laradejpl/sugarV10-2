@@ -226,8 +226,8 @@ textarea{
            <textarea name="message"  cols="110" rows="10" class="textarea">
            
            </textarea>
-           
-           <button name="envoie" class="envoie"> envoie <button/>
+
+           <button name="envoie" class="envoie dodgerblue"> envoie </button>
 
            
     </form>
