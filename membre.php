@@ -19,7 +19,6 @@ if(isset($_POST['ajouter'])){
       $req6->execute();
   $req6->closeCursor();
 
-  
     $reqmessage = $pdo->prepare(
       'INSERT INTO message(membre_id1, membre_id2, message, date_enregistrement, lu)
       VALUES (:membre_id1, :membre_id2,"Vous a demandé en amis...", NOW(), :lu)'
@@ -28,15 +27,8 @@ if(isset($_POST['ajouter'])){
   $reqmessage->bindParam(':membre_id2', $_GET['id']);
   $reqmessage->bindValue(':lu',0);
   $reqmessage->execute();
-  
-  
-  
-
-
+ 
   }
-
-
-
 
 //traitement afficher les derniers membres
 
@@ -151,9 +143,6 @@ echo 'vide message';
           $req->execute();
       }
             
-
-
-
 
 
     

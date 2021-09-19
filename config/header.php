@@ -13,7 +13,6 @@ if (getMembre() === null ) {
 }
 
 
-
 /**
  * Récupérer l'utilisateur connecté (s'il y a)
  * @return array|null
@@ -41,13 +40,6 @@ if ($item['statut'] = 0) {
 
 
 ?>
-
-
-
-
-
-
-
 
 
 <!DOCTYPE html>
@@ -130,15 +122,6 @@ if ($item['statut'] = 0) {
        
 <style>
 
-
-
-
-
-
-
-
-
-
 @media all and (max-width: 480px)
 {
   #mapid
@@ -180,12 +163,6 @@ if ($item['statut'] = 0) {
     </head>
 <body>
 
-
-
-
-  
-
-  
 
 
 

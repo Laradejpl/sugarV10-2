@@ -18,6 +18,7 @@ require_once __DIR__ . '/fonctions.php';
 
 // Démarrage de la session
 session_start();
+//getMembre()['pseudo'];
 
 
 
